@@ -38,12 +38,12 @@
   p, h3, span, button {
     font-family: Vazir, Arial, sans-serif;
     font-weight: normal;
-    direction: rtl;
+
   }
   h1, h2 {
     font-family: Vazir, Arial, sans-serif;
     font-weight: bold;
-    direction: rtl;
+
   }
   h3 {
     text-align: center;
@@ -207,6 +207,7 @@ nav {
 .feathured-text-btn {
     display: flex;
     gap: 20px;
+    
 }
 .feathured-text-btn>.blue-btn {
     background: var(--first-color);
@@ -580,10 +581,5 @@ footer {
     .project-box{
         width: 100%;
     }
-    .form-inputs {
-        flex-direction: column;
-    }
-    .input-field {
-        width: 100%;
-    }
+
 }
